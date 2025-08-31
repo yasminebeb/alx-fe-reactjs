@@ -1,5 +1,5 @@
 
-function Foater() {
+function Foaterf() {
     return (
      <footer>
   <p>© 2023 City Lovers</p>
@@ -7,4 +7,4 @@ function Foater() {
     );
 }
 
-export default Foater ;
+export default Foaterf ;
