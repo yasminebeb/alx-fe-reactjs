@@ -1,6 +1,6 @@
 
 
-function Headerc() {
+function Header() {
     return (
        <header>
        <h1>My Favorite Cities</h1>
@@ -8,4 +8,4 @@ function Headerc() {
     );
 }
 
-export default Headerc ;
+export default Header;
