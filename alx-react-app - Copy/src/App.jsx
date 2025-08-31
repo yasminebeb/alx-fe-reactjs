@@ -1,30 +1,24 @@
 
 
 import WelcomeMessage from './components/WelcomeMessage'
-
- import Headerc from './components/Headerc'
-import MainContent from './components/MainContent'
-import Foaterf from './components/Footerf'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Main from './components/Main'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-   
-       
-    
-     
-     
-       <Headerc/>
-      <WelcomeMessage />
-       <MainContent/>
-       <Foaterf/> 
+     <WelcomeMessage />
+       <WelcomeMessage />
+      <Header />
+      <Main />
+      <Footer />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
