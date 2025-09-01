@@ -34,7 +34,7 @@ function App() {
                 bio="Enjoys coding, gaming, and traveling"
               />
         </div>
-        <Footer/>
+        <Footer />
 
 
       <div>
