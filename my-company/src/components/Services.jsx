@@ -1,11 +1,11 @@
 function Services() {
   return (
-    <div style={{ padding: '20px', margin: 'auto' }}>
+    <div style={{ padding: '20px' }}>
       <h1>Our Services</h1>
       <ul>
-        <li style={{ paddingTop: '10px'}}>Technology Consulting</li>
-        <li style={{ paddingTop: '10px'}}>Market Analysis</li>
-        <li style={{ paddingTop: '10px'}}>Product Development</li>
+        <li>Technology Consulting</li>
+        <li>Market Analysis</li>
+        <li>Product Development</li>
       </ul>
     </div>
   );

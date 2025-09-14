@@ -4,10 +4,8 @@ function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: ''
+    message: '',
   });
-
-  console.log(formData)
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -19,7 +17,7 @@ function Contact() {
   };
 
   return (
-    <div style={{ padding: '20px', margin: 'auto', maxWidth: '15rem', border: '1px solid' }}>
+    <div style={{ padding: '20px' }}>
       <h1>Contact Us</h1>
       <form onSubmit={handleSubmit}>
         <input
